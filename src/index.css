@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #141314;
+    color: #f1eade;
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    min-height: max(884px, 100dvh);
+  }
+}
+
+@layer utilities {
+  .serif-display {
+    font-family: "Noto Serif", serif;
+  }
+  .text-glow {
+    text-shadow: 0 0 40px rgba(241, 234, 222, 0.1);
+  }
+  .grain-overlay {
+    background-image: url(https://lh3.googleusercontent.com/aida-public/AB6AXuCuUPUf2JAzLnB3ThcU5E7QqJvh0shO719QHYPFITyGDRSM2MCyTg__8FTWZk6EfuovFhLIYEY_K_S1nZ4n5A1B7Oe92LhmntCjYYbJmTTtQUEHx3V-ddA8xgD3JoE51SWf3kKySbPOiMCaxwdgzIwH-R0xTwehtOCWZESqF6rzs98nQUTfHGVLHOhWmmizh1A-UlbOJIfp8HICUZYW6Noh8qo8RTw86BXdHdjXc0YcU9KqONxHg8VFsMczz8JX4lIYNd_w75IytD8);
+    opacity: 0.03;
+    pointer-events: none;
+  }
+}

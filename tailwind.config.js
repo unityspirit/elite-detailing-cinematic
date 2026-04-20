@@ -1,0 +1,73 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode: "class",
+  theme: {
+    extend: {
+      colors: {
+        "surface-tint": "#ccc6ba",
+        "on-secondary-fixed-variant": "#643e24",
+        "outline-variant": "#4a463f",
+        "on-surface": "#e6e1e2",
+        "tertiary-fixed": "#d7e7d1",
+        "on-background": "#e6e1e2",
+        "secondary-container": "#674026",
+        "outline": "#959087",
+        "error": "#ffb4ab",
+        "tertiary": "#ffffff",
+        "on-primary-fixed-variant": "#4a463e",
+        "on-tertiary-fixed-variant": "#3c4a3b",
+        "primary-fixed-dim": "#ccc6ba",
+        "surface-container-lowest": "#0f0e0f",
+        "surface-bright": "#3a393a",
+        "inverse-primary": "#625e55",
+        "on-primary": "#333028",
+        "on-tertiary": "#263425",
+        "on-secondary-container": "#e3ad8c",
+        "background": "#1c1a18",
+        "on-error-container": "#ffdad6",
+        "inverse-on-surface": "#34302e",
+        "surface-container-high": "#302c2a",
+        "surface-container": "#242220",
+        "primary-container": "#e9e2d6",
+        "tertiary-container": "#d7e7d1",
+        "error-container": "#93000a",
+        "on-primary-fixed": "#1e1b14",
+        "on-error": "#690005",
+        "secondary-fixed": "#ffdbc8",
+        "on-tertiary-container": "#596857",
+        "on-tertiary-fixed": "#121f11",
+        "primary": "#ffffff",
+        "surface-variant": "#363435",
+        "on-primary-container": "#68645b",
+        "surface-container-low": "#1c1b1c",
+        "tertiary-fixed-dim": "#bbcbb6",
+        "surface-dim": "#141314",
+        "secondary": "#7b5136",
+        "secondary-fixed-dim": "#f3bb99",
+        "surface": "#141314",
+        "on-surface-variant": "#ccc6bc",
+        "inverse-surface": "#e6e1e2",
+        "primary-fixed": "#e9e2d6",
+        "on-secondary-fixed": "#311401",
+        "on-secondary": "#4a2810",
+        "surface-container-highest": "#363435"
+      },
+      borderRadius: {
+        "DEFAULT": "0px",
+        "lg": "0px",
+        "xl": "0px",
+        "full": "9999px"
+      },
+      fontFamily: {
+        "headline": ["Noto Serif", "serif"],
+        "body": ["Inter", "sans-serif"],
+        "label": ["Inter", "sans-serif"]
+      }
+    },
+  },
+  plugins: [],
+}
