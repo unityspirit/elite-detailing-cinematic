@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useScrollProgress } from '../context/ScrollContext';
 
 const TOTAL_FRAMES = 560; // Matches Python script output
-const FRAME_DIR = '/frames-webp';
+const FRAME_DIR = import.meta.env.BASE_URL + 'frames-webp';
 const LERP_SPEED = 0.08; // slightly slower for smoother large transitions
 const PAGE_COUNT = 5; // Hero, Assembly, Portfolio, Journal, Footer
 const SCROLL_SPEED_WHEEL = 0.03; // Stretched out, slow scroll for PC
